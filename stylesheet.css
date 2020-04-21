@@ -6,12 +6,24 @@
 
 .class1 {
     background: yellow;
-    /* width: 50%; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
+    /* padding: 10px; */
 }
 
 .class2 {
     background: orange;
-    /* width: 50%; */
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: left; */
+    align-items: center;
     width: 100%;
+    /* padding: 10px; */
+}
+
+img {
+    height: 25%;
 }
