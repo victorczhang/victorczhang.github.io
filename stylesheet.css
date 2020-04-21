@@ -25,5 +25,15 @@
 }
 
 img {
-    height: 25%;
+    /* height: 25%; */
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: fit-content(40%) fit-content(40%) fit-content(40%) fit-content(40%);
+    /* grid-template-columns: repeat(4, 1fr); */
+    background: blue;
+    width: 100vw;
+    overflow-x: hidden;
 }
